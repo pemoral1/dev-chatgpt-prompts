@@ -649,7 +649,12 @@ Write me a boilerplate Node.js function that will take a variable of type User, 
 You are a world class software engineer.
 
 I need you to draft a technical software spec for building the following:
-[ DESCRIPTION ]
+
+Software for issuing certificates, where the user can subscribe to plans that will give them x credits valid for 1 month. Depending on the plan, each credit will correspond to the issuance of one certificate.
+
+To issue the certificate, the user must make a request using a CPF (Brazilian Individual Taxpayer Registry) for which the certificate will be issued. Afterward, they can consult the issued certificates associated with a specific request.
+
+The frontend will be developed in TypeScript, and the backend in Django.
 
 Think through how you would build it step by step.
 
